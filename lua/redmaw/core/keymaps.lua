@@ -1,6 +1,5 @@
 -- Make spacebar leader key
 vim.g.mapleader = ' '
-vim.g.maplocalleader = ' '
 
 local keymap = vim.keymap
 
@@ -20,10 +19,10 @@ keymap.set('n', '<leader>se', '<C-w>=', { desc = 'Make splits equal size' })
 keymap.set('n', '<leader>sx', '<cmd>close<CR>', { desc = 'Close current split' })
 
 -- Navigate between split windows
-keymap.set('n', '<C-h>', '<C-w><C-h>', { desc = 'Move to the left window' })
-keymap.set('n', '<C-l>', '<C-w><C-l>', { desc = 'Move to the right window' })
-keymap.set('n', '<C-j>', '<C-w><C-j>', { desc = 'Move to the lower window' })
-keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move to the upper window' })
+-- keymap.set('n', '<C-h>', '<C-w><C-h>', { desc = 'Move to the left window' })
+-- keymap.set('n', '<C-l>', '<C-w><C-l>', { desc = 'Move to the right window' })
+-- keymap.set('n', '<C-j>', '<C-w><C-j>', { desc = 'Move to the lower window' })
+-- keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move to the upper window' })
 
 -- Create tabs
 keymap.set('n', '<leader>to', '<cmd>tabnew<CR>', { desc = 'Open new tab' })
