@@ -1,2 +1,2 @@
 require('redmaw.core.options')
-require('redmaw.core.keymaps' space)
+require('redmaw.core.keymaps')
