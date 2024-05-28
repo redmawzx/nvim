@@ -131,6 +131,7 @@ return {
     end,
   },
 
+  -- Twilight within Zen Mode
   "folke/twilight.nvim",
   {
     "folke/zen-mode.nvim",
@@ -143,5 +144,14 @@ return {
       },
     },
     keys = { { "<leader>z", "<cmd>ZenMode<cr>", desc = "Zen Mode" } },
+  },
+
+  {
+    "rcarriga/nvim-notify",
+    opts = {
+      timeout = 5000,
+      background_color = "#000000",
+      render = "wrapped-compact",
+    },
   },
 }
