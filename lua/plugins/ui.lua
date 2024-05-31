@@ -50,6 +50,10 @@ return {
       }
       opts.presets.lsp_doc_border = true
     end,
+
+    require("noice").setup({
+      presets = { inc_rename = true },
+    }),
   },
 
   -- Lualine
