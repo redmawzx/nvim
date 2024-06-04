@@ -158,4 +158,9 @@ return {
       render = "wrapped-compact",
     },
   },
+  -- Dressing nvim
+  {
+    "stevearc/dressing.nvim",
+    opts = {},
+  },
 }
