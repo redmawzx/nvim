@@ -26,4 +26,4 @@ opt.path:append({ "**" })
 opt.wildignore:append({ "*/node_modules/*" })
 
 -- Use system clipboard
-opt.clipboard:append("unnamedplus")
+opt.clipboard = "unnamedplus"
