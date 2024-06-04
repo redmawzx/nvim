@@ -159,7 +159,7 @@ return {
     },
   },
 
-  -- Dressing nvim
+  --  Dressing nvim
   {
     "stevearc/dressing.nvim",
     lazy = true,
