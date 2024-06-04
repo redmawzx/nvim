@@ -24,3 +24,6 @@ opt.backspace = { "start", "eol", "indent" }
 opt.path:append({ "**" })
 -- Ignore node modules
 opt.wildignore:append({ "*/node_modules/*" })
+
+-- Use system clipboard
+opt.clipboard:append("unnamedplus")
